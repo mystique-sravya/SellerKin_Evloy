@@ -121,6 +121,37 @@ background-color:#FEFAE7;
     padding-bottom: 8px;
     color:#f95700;
     }
+    .underlined
+      {
+        position: relative;        
+      }
+      .underlined:after {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        height: 8px;
+        width: 100%;
+        border: solid 3px #f26522;
+        border-color: #f26522 transparent transparent transparent;
+        border-radius: 50%;
+      }
+      .underlined1
+      {
+        position: relative;  
+        
+      }
+      .underlined1:after {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        height: 8px;
+        width: 100%;
+        border: solid 3px #000;
+        border-color: #000 transparent transparent transparent;
+        border-radius: 50%;
+      }
 .nav-link {
   color: #000;
 }
