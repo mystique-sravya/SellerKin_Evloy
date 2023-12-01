@@ -1,0 +1,191 @@
+body
+{
+font-family: 'Plus Jakarta Sans';
+background-color:#FEFAE7;
+}
+.logocls
+{
+  width:130px;
+}
+.section1
+{
+  background-image: url('../img/Herobgimage.jpg'); 
+  background-size:cover; 
+  background-position: center; 
+  min-height:300px;
+}
+.section1p1
+{
+  background-color:#f95700; 
+  color:#fff;
+}
+.section1p2
+{
+  font-weight:600;
+  font-size:20px;
+}
+.section1p3, .section6p1
+{
+  font-family: 'Inter', sans-serif; 
+  font-weight:800; 
+  font-size:40px;
+}
+.section1spark
+{
+  background: url('../img/sparkInText.png') top left no-repeat;
+  background-size:23px;
+  padding-left:15px;
+  padding-top:10px;
+}
+.section1kart
+{
+  width:40px;
+}
+.section1medal
+{
+  width:40px;
+}
+.section2Lcol
+{
+  background-color:black;
+  height:300px;
+}
+.section2Listimg
+{
+  width:45px;
+  margin: 0 15px;
+}
+.section3 
+{
+  background: url('../img/scaleyourbusiness.jpg'); 
+  background-size:cover; 
+  background-position: center;
+  min-height:250px;
+}
+.section3p1
+{
+  font-size:20px;
+  font-weight:600;
+}
+.section3arrow
+{
+  width:30px;margin: 0 10px;
+}
+.section3btn
+{
+  padding:18px 40px;
+  font-size:25px;
+}
+.section4pin
+{
+  width:100px;
+}
+.section4Lcol, .section5Rcol
+{
+  line-height: 35px;
+}
+.section6colH
+{
+  min-height:150px;
+}
+.section6ico
+{
+  width:50px;
+  margin-top:-20px;
+}
+.section6arrow
+{
+  width:50px;
+}
+.section6curve
+{  
+  background:url('../img/curvearrow.png');
+  background-size:cover;
+  height:245px; 
+  margin-top:-100px; 
+  margin-bottom:-100px; 
+}
+.section6colp
+{
+  margin-top:20px;
+}
+
+.sketch-underline {
+  background: url('../img/sketch-line.png') bottom left no-repeat;
+  background-size: 100% 10px;
+  padding-bottom: 8px;
+  }
+  .sketch-underline1 {
+    background: url('../img/sketch-line1.png') bottom left no-repeat;
+    background-size: 100% 10px;
+    padding-bottom: 8px;
+    color:#f95700;
+    }
+.nav-link {
+  color: #000;
+}
+.nav-link:hover, .nav-link:hover {
+  color: #f95700;
+}
+.btn-orange {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #f95700;
+  --bs-btn-border-color: #f95700;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #d84b00;
+}
+.btn-outline-orange {
+  --bs-btn-color: #000;
+  --bs-btn-border-color: #f95700;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #f95700;  
+}
+.orangecolortext
+{
+color:#f95700;
+}
+.orangecolorbg
+{
+background-color:#f95700;
+}
+.orangecolorbglight
+{
+  background-color:#FEFAE7;
+}
+.border-roundedor
+{
+  border:1px solid #f95700;
+  border-radius: 15px;
+}
+  .navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: .8rem;
+    padding-left: .8rem;
+  }
+  .myicolist li
+  {
+    list-style-type: none;
+line-height:60px;
+  }
+  .listinline{
+   margin-top:20px;    
+  }
+  .listinline li{
+    display: inline;
+    margin-right:8px;    
+  }
+  .listinline img
+  {
+    height:20px;
+  }
+
+  .custlist {    
+    list-style-image: url('../img/successicon.png');        
+  }
+  .custlist li {
+    list-style: none;
+    padding: 2px 25px;
+    background-image: url("../img/successicon.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 15px;
+}
